@@ -23,6 +23,9 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 .wrap { width: min(100% - 3rem, 66rem); margin-inline: auto; }
 .site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
 .header-inner { min-height: 5.5rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-block: 1rem; }
+.header-navigation { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: .3rem 1.4rem; }
+.language-nav { border-left: 1px solid var(--line); padding-left: 1rem; gap: .75rem; }
+.language-nav a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; }
 .wordmark { color: var(--text); font-size: 1.35rem; font-weight: 750; letter-spacing: -.04em; text-decoration: none; }
 nav { display: flex; flex-wrap: wrap; gap: .2rem 1.25rem; }
 nav a { padding-block: .45rem; color: var(--muted); text-decoration: none; font-size: .93rem; }
@@ -80,6 +83,7 @@ details p:last-child { margin-bottom: .2rem; }
 @media (max-width: 42rem) {
   .wrap { width: min(100% - 2rem, 66rem); }
   .header-inner { align-items: flex-start; flex-direction: column; gap: .25rem; padding-block: 1rem .7rem; }
+  .header-navigation { justify-content: flex-start; gap: .1rem 1rem; }
   nav { gap: .1rem 1rem; }
   main { padding-block: 2.5rem 3.5rem; }
   .hero { padding-bottom: 1.5rem; }
