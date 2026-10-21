@@ -42,6 +42,7 @@ p { margin: 0 0 1rem; }
 .muted, .meta { color: var(--muted); }
 .meta { font-size: .9rem; }
 .notice { padding: 1rem 1.25rem; border-left: 3px solid var(--accent); background: var(--soft); border-radius: 0 .6rem .6rem 0; }
+.listing-note { margin-top: 1.5rem; }
 .section { margin-top: 3rem; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .editions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
